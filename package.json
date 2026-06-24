@@ -2,6 +2,12 @@
   "name": "LibreChat",
   "version": "v0.8.2",
   "description": "",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": ">=11.8.0 <12"
+    }
+  },
   "workspaces": [
     "api",
     "client",
